@@ -10,7 +10,7 @@ namespace Localization
     [RequireComponent(typeof(TMP_Text))]
     public class LocalizedText : MonoBehaviour
     {
-        public TextAsset dataFile;
+        public string localizationTable;
         public string textKey;
 
         private TMP_Text _text;
